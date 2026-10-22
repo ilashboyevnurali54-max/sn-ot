@@ -98,3 +98,15 @@ bot.launch().then(() => console.log('Bot ishga tushdi'));
 
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Bot faol ishlamoqda!');
+});
+
+app.listen(PORT, () => {
+  console.log(Server ${PORT}-portda ishlamoqda...);
+});
