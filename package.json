@@ -1,14 +1,4 @@
-{
-  "name": "telegram-register-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "telegraf": "^4.16.3"
-  }
-}
+
 {
   "name": "telegram-register-bot",
   "version": "1.0.0",
