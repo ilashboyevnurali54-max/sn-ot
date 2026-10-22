@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 
 // ====== SOZLAMALAR ======
-const BOT_TOKEN = process.env.BOT_TOKEN || '8953284651:AAHd1d68gTMKeh4IpI7Z0t3KJle_fbYgg4k'; // @BotFather beradi
+const BOT_TOKEN = process.env.BOT_TOKEN; // @BotFather beradi
 const ADMIN_ID = Number(process.env.ADMIN_ID || 8919269688); // admin Telegram ID (raqam)
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'sn.admin'; // @ belgisisiz
 // ========================
