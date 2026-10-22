@@ -108,5 +108,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(Server ${PORT}-portda ishlamoqda...);
+  console.log('Server' '+PORT+'-portda ishlamoqda...');
 });
